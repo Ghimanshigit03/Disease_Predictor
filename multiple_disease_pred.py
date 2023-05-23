@@ -66,7 +66,7 @@ if (selected == 'Diabetes Prediction'):
         
         
     # Load the image file
-    image = open('C:/Users/AMIT GARG/OneDrive/Desktop/Multiple Disease Prediction System/images/diabetes2.png', 'rb')
+    image = open('diabetes2.png', 'rb')
     image_bytes = image.read()
     
     # Display the image using st.image
@@ -84,7 +84,7 @@ if (selected == 'Diabetes Prediction'):
           diab_diagnosis="The person is diabetic"
           
           # Load the image file
-          image = open('C:/Users/AMIT GARG/OneDrive/Desktop/Multiple Disease Prediction System/images/cure_diabetes.png', 'rb')
+          image = open('cure_diabetes.png', 'rb')
           image_bytes = image.read()
           
           # Display the image using st.image
@@ -94,7 +94,7 @@ if (selected == 'Diabetes Prediction'):
           diab_diagnosis = 'The person is not diabetic'
           
           # Load the image file
-          image = open('C:/Users/AMIT GARG/OneDrive/Desktop/Multiple Disease Prediction System/images/happy2.png', 'rb')
+          image = open('happy2.png', 'rb')
           image_bytes = image.read()
           
           # Display the image using st.image
@@ -154,7 +154,7 @@ if (selected == 'Heart Disease Prediction'):
         
     
     # Load the image file
-    image = open('C:/Users/AMIT GARG/OneDrive/Desktop/Multiple Disease Prediction System/images/Heart.jpg', 'rb')
+    image = open('Heart.jpg', 'rb')
     image_bytes = image.read()
     
     # Display the image using st.image
@@ -173,7 +173,7 @@ if (selected == 'Heart Disease Prediction'):
           heart_diagnosis = 'The person is having heart disease'
           
           # Load the image file
-          image = open('C:/Users/AMIT GARG/OneDrive/Desktop/Multiple Disease Prediction System/images/cure_heart.png', 'rb')
+          image = open('cure_heart.png', 'rb')
           image_bytes = image.read()
           
           # Display the image using st.image
@@ -182,7 +182,7 @@ if (selected == 'Heart Disease Prediction'):
           heart_diagnosis = 'The person does not have any heart disease'
           
           # Load the image file
-          image = open('C:/Users/AMIT GARG/OneDrive/Desktop/Multiple Disease Prediction System/images/happy2.png', 'rb')
+          image = open('happy2.png', 'rb')
           image_bytes = image.read()
           
           # Display the image using st.image
@@ -268,7 +268,7 @@ if (selected == "Parkinsons Prediction"):
         PPE = st.text_input('PPE')
         
     # Load the image file
-    image = open('C:/Users/AMIT GARG/OneDrive/Desktop/Multiple Disease Prediction System/images/parkinsons.png', 'rb')
+    image = open('parkinsons.png', 'rb')
     image_bytes = image.read()
     
     # Display the image using st.image
@@ -285,7 +285,7 @@ if (selected == "Parkinsons Prediction"):
           parkinsons_diagnosis = "The person has Parkinson's disease"
           
           # Load the image file
-          image = open('C:/Users/AMIT GARG/OneDrive/Desktop/Multiple Disease Prediction System/images/cure_parkinsons.png', 'rb')
+          image = open('cure_parkinsons.png', 'rb')
           image_bytes = image.read()
           
           # Display the image using st.image
@@ -294,7 +294,7 @@ if (selected == "Parkinsons Prediction"):
           parkinsons_diagnosis = "The person does not have Parkinson's disease"
           
           # Load the image file
-          image = open('C:/Users/AMIT GARG/OneDrive/Desktop/Multiple Disease Prediction System/images/happy2.png', 'rb')
+          image = open('happy2.png', 'rb')
           image_bytes = image.read()
           
           # Display the image using st.image
