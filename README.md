@@ -7,3 +7,5 @@ A machine learning model that predicts the likelihood of three different types o
 📊 The dataset for the model was collected from Kaggle, a popular website for data science and machine learning, providing a wide range of datasets. :bar_chart:
 
 🌟 Additionally, I have incorporated images linked to the respective diseases. These images provide visual cues and make the app more engaging and informative. :camera:
+
+*https://disease-predictor.streamlit.app/*
